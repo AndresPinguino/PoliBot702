@@ -60,20 +60,15 @@ defmain():               #Subrutina principal
 robot=MotorDC()          #Creación de la instancia robot
 retardo=1                #Definición de una variable de tiempo en segundos
 while True:              #Estructura de repetición
-robot.adelante(retardo)
-robot.giroizquierda(retardo)
-robot.adelante(retardo)
-robot.giroderecha(retardo)
-robot.atras(retardo)
-robot.giroizquierda(retardo)
-robot.detenido(retardo)
+    robot.adelante(retardo)
+    robot.giroizquierda(retardo)
+    robot.adelante(retardo)
+    robot.giroderecha(retardo)
+    robot.atras(retardo)
+    robot.giroizquierda(retardo)
+    robot.detenido(retardo)
 
 #----------------------------------------------------------------------
 
 if__name__=='__main__':   #Llamada a la Subrutina principal
 main()
-
-
-
-
-
