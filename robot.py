@@ -56,7 +56,7 @@ self.detenido(0.5)
 
 #----------------------------------------------------------------------
 
-defmain():               #Subrutina principal
+def main():               #Subrutina principal
 robot=MotorDC()          #Creación de la instancia robot
 retardo=1                #Definición de una variable de tiempo en segundos
 while True:              #Estructura de repetición
